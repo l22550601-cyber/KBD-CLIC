@@ -1,0 +1,44 @@
+#hola{
+     
+  margin:10px;
+  background-color: rgb(42, 11, 214);
+  color:#f5f4f4;
+  padding:12px 26px;
+  border-radius:18px;
+  font-weight:800;
+  display:inline-block;
+}
+
+#bonjour{
+  margin: 16px;
+  background-color: rgb(29, 172, 216);
+  color: #f5f4f4;
+  padding: 12px 26px;
+  display: inline-block;
+  border-radius: 28px;
+  font-weight: 800;
+}
+
+#ampoule, ampoule{
+  width: 100px;
+  height: 100px;
+  margin-left: 100px;
+  background-color: rgb(156, 67, 67);
+  border-radius: 100px;
+  
+  
+  
+
+}
+
+#bntallume, #bnteteindre{
+  margin: 16px;
+  background-color: rgb(29, 172, 216);
+  color: #f5f4f4;
+  padding: 12px 26px;
+  display: inline-block;
+  border-radius: 28px;
+  font-weight: 800;
+
+}
+

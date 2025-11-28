@@ -1,0 +1,55 @@
+.cadre_exercice{
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 2cm;
+
+}
+.cadre_numero_exercice{
+    border-width: 2px;
+    border-color: rgb(173, 149, 10);
+    border-style: solid;
+    border-radius: 20px;
+    padding: 2cm;
+
+}
+
+#verifie{
+     margin:10px;
+  background-color: rgb(81, 56, 223);
+  color:#f5f4f4;
+  padding:12px 26px;
+  border-radius:14px;
+  font-weight:800;
+  display:inline-block;
+}
+.paragraphe_affichage{
+    border-radius: 2px;
+    background-color: rgb(241, 241, 245);
+    border-left: 4px solid blue;
+    border-radius: 5px;
+    display: grid;
+    margin: 5px;
+    padding: 12px 26px;
+}
+
+#paragraphe_affichage{
+     border-radius: 2px;
+    background-color: rgb(238, 238, 229);
+    border-left: 4px solid blue;
+    border-radius: 5px;
+    display: grid;
+    margin: 5px;
+    padding: 12px 26px;
+}
+
+#troisieme_button{
+    margin:10px;
+  background-color: rgb(81, 56, 223);
+  color:#f5f4f4;
+  padding:12px 26px;
+  border-radius:14px;
+  font-weight:800;
+  display:inline-block;
+}

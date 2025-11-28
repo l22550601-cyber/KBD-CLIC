@@ -1,0 +1,24 @@
+
+body {
+    background-color: lightyellow;
+}
+
+.highlight {
+    color: blue;
+    font-weight: bold;
+}
+
+li {
+    color: green;
+}
+
+.speciale{
+    border: 2px solid rgb(117, 53, 53);
+    background-color: lightgray;
+
+}
+
+
+#ananas {
+    background-color: yellow;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- 6. En-tête -->
+    <h1>Ma Page de Synthèse HTML</h1>
+
+    <!-- 7. Paragraphe -->
+    <p>
+        Ceci est un petit exemple de page HTML complète contenant des titres,
+        un paragraphe,<br> une liste, une image, un lien et un tableau avec des fusions
+        de cellules.
+    </p>
+
+    <!-- 8. Liste non ordonnée -->
+    <ul>
+        <li>Projet D-CLIC</li>
+        <li>Organisation Internationale</li>
+        <li>SAEI-Cube</li>
+    </ul>
+
+    <!-- 9. Image -->
+    <img src="./images/WhatsApp Image 2025-11-15 à 19.37.59_730349e2.jpg" alt="Une belle image" width="200">
+
+    <!-- 10. Lien vers la deuxième page -->
+    <p>
+        <a href="./images/WhatsApp Image 2025-11-15 à 19.37.59_730349e2.jpg">Voir la deuxième page</a>
+    </p>
+
+    <!-- 11-14. Tableau -->
+    <table border="1" cellpadding="8">
+        <!-- Ligne 1 -->
+        <tr>
+            <td>Nom</td>
+            <td>Aminata Touré</td>
+            <td>Jeff Kodjo</td>
+            <td>Abdoul-kabir</td>
+        </tr>
+
+        <!-- Ligne 2 avec fusion colonnes 2 et 3 -->
+        <tr>
+            <td>Nationalité</td>
+            <td colspan="2">Americaine</td>
+            <td>Togolaise</td>
+        </tr>
+
+        <!-- Ligne 3 -->
+        <tr>
+            <td>Sexe</td>
+            <td>F</td>
+            <td>M</td>
+            <td>M</td>
+        </tr>
+
+        <!-- Lignes 4 et 5 fusionnées dans la colonne 1 -->
+        <tr>
+            <td rowspan="2">Domaine et Projet</td>
+            <td>developpement web</td>
+            <td>developpement mobile</td>
+            <td>Programmation et developpement</td>
+        </tr>
+
+        <tr>
+            <!-- La colonne 1 est fusionnée via rowspan -->
+            <td>D-CLIC</td>
+            <td>D-CLIC</td>
+            <td>D-CLIC</td>
+        </tr>
+    </table>
+
+</body>
+</html>

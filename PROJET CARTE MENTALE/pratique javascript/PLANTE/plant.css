@@ -1,0 +1,105 @@
+.icone {
+    margin: 12px;
+}
+
+
+.tout {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 42px;
+}
+
+
+.menu {
+    display: flex;
+
+}
+
+.elmenu {
+    padding: 12px;
+}
+
+.phrase_principale {
+    font-size: 75px;
+  font-family: "BBH Sans Bogle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.vertclaire{
+     color: rgb(67, 194, 9);
+}
+
+.vertsombre{
+     color: rgb(6, 104, 15);
+}
+
+.contenant_info{
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+   
+}
+
+.contenant_button{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.imageill{
+   width: 50 0px;
+}
+
+.grandcont{
+    display: flex;
+    padding: 24px 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button{
+    padding: 12px 24px;
+    background-color: rgb(45, 153, 12);
+    color: aliceblue ;
+    border: 0px;
+    border-radius: 12px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

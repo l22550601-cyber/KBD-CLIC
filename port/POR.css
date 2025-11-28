@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: #ff9900;
+    color: rgb(243, 243, 243);
+}
+
+/* HEADER */
+.entete {
+    width: 100%;
+    padding: 25px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 10;
+}
+
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.nav a {
+    color: rgb(85, 22, 22);
+    margin-right: 40px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.btn {
+    background: #ff6a00;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'Inter';
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #ff8c3d;
+}
+
+/* HERO */
+.hero {
+    height: 95vh;
+    padding: 140px 60px 60px 60px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 12px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom right, #ff5c00, #b30000);
+    opacity: 0.8;
+    background-image: url("images/hero.jpg");
+    background-size: contain ;
+    background-position: center;
+    mix-blend-mode: multiply;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+.intro {
+    font-size: 22px;
+    margin-bottom: 10px;
+    opacity: 0.9;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 90px;
+    font-weight: 800;
+    line-height: 90px;
+}
+
+.services-list {
+    margin-top: 40px;
+    display: flex;
+    gap: 40px;
+    font-size: 14px;
+}
+
+.services-list span {
+    font-weight: 600;
+}
+
+.photoprofil {
+    position: absolute;
+    right: 60px;
+    top: 200px;
+    width: 280px;
+    z-index: 2;
+}
+
+
+.photo{
+  display: flex;
+    justify-content:center;
+    align-content: center;
+    padding: 24px 24px;
+    border-radius: 10px 60px 20px;
+    margin-bottom: 50px;width: 500px;
+
+object-fit: cover;
+
+}
+
+.hero-text p {
+    font-size: 20px;
+}
+
+.subtext {
+    margin-top: 10px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+/* BRANDS */
+.brands {
+    padding: 40px 60px;
+    background: #0b0b0b;
+    margin-top: -40px;
+    border-radius: 25px;
+}
+
+.brands p {
+    opacity: 0.5;
+    margin-bottom: 20px;
+}
+
+.brand-list {
+    display: flex;
+    gap: 60px;
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+/* ABOUT */
+.about {
+    padding: 80px 60px;
+}
+
+.orange {
+    color: #ff6a00;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.big-title {
+    font-family: 'Montserrat';
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 60px;
+    margin-bottom: 25px;
+}
+
+.about-text {
+    width: 350px;
+    opacity: 0.8;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.about-btn {
+    margin-bottom: 50px;
+}
+
+/* GALLERY */
+.gallery {
+    display: flex;
+    gap: 25px;
+}
+
+.gallery img {
+    width: 30%;
+    border-radius: 15px;
+    object-fit: cover;
+    
+}
+
+

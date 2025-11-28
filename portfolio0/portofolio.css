@@ -1,0 +1,33 @@
+
+.section1{
+
+
+}
+
+
+
+.pre{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 24px ;
+}
+
+.menu{
+    display: flex;
+}
+
+.elmenu{
+    padding: 12px ;
+}
+
+.un{
+    display: flex;
+}
+
+.deux{
+justify-content: left;
+}
+.de{
+
+}
