@@ -76,6 +76,9 @@ body{
   padding:12px;
   border-radius:26px;
 }
+.box{
+  margin-top: 48px ;
+}
 
 .contact-list, .lang-list, .interest-list{
   list-style:none;
