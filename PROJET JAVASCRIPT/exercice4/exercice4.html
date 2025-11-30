@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercice 4 - Manipulation de chaînes</title>
+</head>
+<body>
+
+    <h2>Manipulation de chaînes de caractères</h2>
+
+    <input type="text" id="texte" placeholder="Tapez une chaîne ici">
+    <div id="resultat"></div>
+
+    <script>
+        const input = document.getElementById("texte");
+        const result = document.getElementById("resultat");
+
+        input.addEventListener("input", function () {
+            let chaine = input.value;
+
+            // Longueur de la chaîne
+            let longueur = chaine.length;
+
+            // Sous-chaîne : les 3 premiers caractères
+            let sousChaine = chaine.substring(0, 3);
+
+            result.innerHTML = `
+                <p>Longueur de la chaîne : <strong>${longueur}</strong></p>
+                <p>Les 3 premiers caractères : <strong>${sousChaine}</strong></p>
+            `;
+        });
+    </script>
+
+</body>
+</html>
