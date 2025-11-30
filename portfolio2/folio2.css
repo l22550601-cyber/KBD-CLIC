@@ -1,16 +1,27 @@
 .fond {
 
-    background-image: url(./fonnd8.jpg);
+    background-image: url(./1\ \(8\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.kblogo{
+    width: 105px ;
+    margin-left: 24px ;
 }
 
 .esp {
     margin-bottom: 24px;
     color: #ccc;
 }
-
+.web{
+    color: #ccc;
+}
 .decale {
     margin-top: 7px;
     border-radius: 12px;
@@ -23,10 +34,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 10px ;
 }
 
 .menu {
     display: flex;
+ font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+
 }
 
 .elmenu {
@@ -36,6 +54,8 @@
 .imageill {
     width: 350px;
     border-radius: 10px 60px 30px;
+    margin-right: 99px ;
+    margin-bottom: 45px ;
 }
 
 .cont {
@@ -54,8 +74,8 @@
 }
 
 .phrase_principale {
-    font-size: 45px;
-    font-weight: 300;
+    font-size: 40px;
+    font-weight: 800;
     font-style: normal;
     color: #ccc;
 }
@@ -76,19 +96,19 @@
 }
 
 .cv {
-    background-color: rgb(79, 143, 95);
+    background-color: rgb(136, 46, 45);
 }
 
 .rea {
-    background-color: rgb(14, 54, 19);
+    background-color: rgb(78, 17, 17);
 }
 
 .noir {
-    color: rgb(236, 236, 236);
+    color: rgb(131, 15, 15);
 }
 
 .violet {
-    color: rgb(11, 196, 110);
+    color: rgb(100, 11, 11);
 }
 
 .nom {
@@ -166,13 +186,7 @@ body {
     position: relative;
 }
 
-.stat .num {
-    font-size: 56px;
-    font-weight: 800;
-    color: #f3bcbc;
-    /* rose  */
-    margin-bottom: 10px;
-}
+
 
 .stat .label {
     font-size: 15px;
@@ -190,7 +204,7 @@ body {
     width: 260px;
     margin-top: 50px;
     height: 130px;
-    background: #6b46c1;
+    background: #724605;
     /* violet */
     border-radius: 130px 130px 0 0;
     z-index: 0;
@@ -271,7 +285,7 @@ body {
 .stat .num {
     font-size: 56px;
     font-weight: 800;
-    color: #f3bcbc;
+    color: #ad3d3d;
     /* rose pâle */
     margin-bottom: 10px;
 }
@@ -292,7 +306,7 @@ body {
     width: 260px;
     margin-top: 50px;
     height: 130px;
-    background: #6b46c1;
+    background: #6d0202;
     /* violet */
     border-radius: 130px 130px 0 0;
     z-index: 0;
@@ -303,7 +317,7 @@ body {
 
 
 .services {
-    background: #0b5f4a;
+    background: #701f1f;
     color: #ffffff;
     
 }
@@ -345,7 +359,7 @@ body {
     height: 44px;
     display: block;
     margin-bottom: 16px;
-    color: #6b46c1;
+    color: #d1be0e;
     /* violet icônes */
 }
 
@@ -422,7 +436,7 @@ body {
 /*------------------------------------------- SECTION QUATRE -------------------------------------------------------------*/
 
 .sectquatre {
-    background-color: #06362a;
+    background-color: #360606;
     border-radius: 12px;
     padding: 12px;
     color: #ffffff;
@@ -495,7 +509,7 @@ h2 {
     position: absolute;
     bottom: 15px;
     right: 15px;
-    background: #7b4bde;
+    background: #e6d646;
     color: white;
     width: 32px;
     height: 32px;
@@ -534,7 +548,7 @@ h2 {
 .subtitle {
     max-width: 650px;
     margin: 0 auto 40px;
-    color: #ecdfdf;
+    color: #dbd3d3;
     font-size: 15px;
 }
 
@@ -578,7 +592,7 @@ h2 {
 
 .bar div {
     height: 100%;
-    background: #000;
+    background: #a08405;
 }
 
 @media (max-width: 700px) {
@@ -591,7 +605,7 @@ h2 {
 /*------------------------------- SECTION six -------------------------------------------------------------*/
 
 .testimonials {
-    background: #e9ddf7;
+    background: #ceaaaa;
     padding: 80px 20px;
     text-align: center;
     position: relative;
@@ -680,7 +694,7 @@ h2 {
     transform: translateY(-50%);
     width: 250px;
     height: 250px;
-    background: #e099d4;
+    background: #e6a10e;
     border-radius: 50%;
     z-index: -1;
 }
@@ -699,7 +713,8 @@ h2 {
 
 .info p {
     margin: 8px 0;
-    font-size: 15px;
+    font-size: 17px;
+    color: #000;
 }
 
 .socials a {
@@ -718,7 +733,8 @@ h2 {
 
 .right input,
 .right textarea {
-    border: 2px solid #000;
+   border-radius: 12px ;
+   border: 2px solid #000;
     padding: 12px;
     font-size: 15px;
     width: 100%;
@@ -730,10 +746,10 @@ h2 {
 }
 
 .right button {
-    background: #000;
+    background: #792424;
     color: #fff;
     padding: 12px;
-    border: none;
+    border-radius:12px  ;
     font-size: 16px;
     cursor: pointer;
     width: 150px;
@@ -761,6 +777,13 @@ h2 {
     text-align: center;
     color: white;
     font-family: Arial, sans-serif;
+
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 .mesure {
@@ -806,4 +829,216 @@ h2 {
     .mesure {
         gap: 20px;
     }
+}
+
+
+
+
+
+
+/* ---------- POPUP ---------- */
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none; /* caché par défaut */
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.6);
+    animation: fadeIn 0.25s forwards;
+    z-index: 9999;
+}
+
+.popup-box {
+    background: white;
+    padding: 25px 35px;
+    border-radius: 12px;
+    text-align: center;
+    max-width: 380px;
+    animation: popupZoom 0.25s ease;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+}
+
+.popup-box h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: #5b0b0b;
+}
+
+.popup-box button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #792424;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes popupZoom {
+    from { transform: scale(0.9); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+}
+
+
+
+
+.menu a {
+    color: rgb(41, 35, 35);
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.menu a:hover {
+    color: #99170e; /* doré */
+    transform: translateY(-3px);
+}
+
+
+
+
+
+/* ===== POPUP REALISATION ===== */
+/* ===== POPUP REALISATION ===== */
+.project-popup {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+}
+
+.project-box {
+  position: relative;
+  max-width: 1100px;
+  width: 100%;
+  height: 90vh;          /* ← Remplace max-height par height */
+  overflow-y: auto;      /* ← Ajoute le défilement vertical */
+  overflow-x: hidden;
+  border-radius: 12px;
+  animation: popupZoom 0.25s ease;
+}
+
+.project-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 6px 25px rgba(0,0,0,0.4);
+}
+
+.project-close {
+    position: absolute;
+    top: -10px; right: -10px;
+    cursor: pointer;
+    background: #ffffff;
+    width: 35px; height: 35px;
+    border-radius: 50%;
+    font-size: 22px;
+    line-height: 35px;
+    text-align: center;
+    font-weight: bold;
+}
+/* ===== POPUP CV ===== */
+.cv-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none; 
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,0.7);
+    z-index: 9999;
+    animation: fadeIn 0.3s ease forwards;
+}
+
+.cv-box {
+    background: white;
+    width: 80%;
+    max-width: 900px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+    animation: zoomIn 0.3s ease forwards;
+    position: relative;
+    text-align: center;
+}
+
+.cv-close {
+    position: absolute;
+    right: 18px;
+    top: 8px;
+    font-size: 32px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #444;
+}
+
+.cv-viewer {
+    width: 100%;
+    height: 600px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.cv-download {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #792424;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes zoomIn {
+    from {transform: scale(0.8); opacity: 0;}
+    to {transform: scale(1); opacity: 1;}
+}
+
+
+
+
+
+/* ===== Chat widget (option A) ===== */
+.chat-widget { position: fixed; right: 24px; bottom: 24px; z-index: 10000; font-family: Arial, sans-serif; }
+.chat-toggle {
+  width:56px;height:56px;border-radius:50%;background:#792424;color:white;border:none;font-size:22px;cursor:pointer;
+  box-shadow:0 8px 20px rgba(0,0,0,0.2);
+}
+.chat-panel {
+  width:320px; max-height:70vh; display:none; flex-direction:column; background:#fff; border-radius:12px; box-shadow:0 10px 40px rgba(0,0,0,0.2);
+  overflow:hidden;
+}
+.chat-header { background:#701f1f;color:#fff;padding:10px 12px; display:flex; justify-content:space-between; align-items:center; }
+.chat-close { background:transparent;border:0;color:#fff;font-size:20px; cursor:pointer; }
+.chat-messages { padding:12px; height:320px; overflow:auto; background:#f7f7f7; display:flex; flex-direction:column; gap:8px; }
+.msg { max-width:85%; padding:8px 10px; border-radius:10px; }
+.msg.user { align-self:flex-end; background:#792424;color:#fff; }
+.msg.bot { align-self:flex-start; background:#eee; color:#222; }
+.chat-form { display:flex; gap:8px; padding:10px; border-top:1px solid #eee; }
+.chat-form input { flex:1; padding:8px 10px; border-radius:8px; border:1px solid #ccc; }
+.chat-form button { background:#792424;color:#fff;border:0;padding:8px 12px;border-radius:8px; cursor:pointer; }
+
+/* small screens */
+@media (max-width:480px) {
+  .chat-panel { width:92vw; right:4vw; bottom:8vh; }
 }

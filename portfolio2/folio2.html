@@ -4,43 +4,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio2</title>
+    <title>Portfolio2</title>
     <!-- ajout d'un fichier css -->
     <link rel="stylesheet" href="./folio2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+
+
 </head>
 
 <body>
 
-    <section>
+    <section id="Accueil">
         <div class="present">
-            <P class="nom">PORTOFOLIO</P>
+            <img class="kblogo" src="./kblogo.jpg" alt="">
             <div class="menu">
-                <p class="elmenu">A Proposs</p>
-                <p class="elmenu">Services</p>
-                <p class="elmenu">Mes realisation</p>
-                <p class="elmenu">Mes competences</p>
-                <p class="elmenu">Blog</p>
-                <div><button class="elmenu cv decale">Discutons de ton projet</button></div>
+                <a href="#apropos" class="elmenu">A Propos</a>
+                <a href="#services" class="elmenu">Services</a>
+                <a href="#realisations" class="elmenu">Mes réalisations</a>
+                <a href="#competences" class="elmenu">Mes compétences</a>
+                <a href="#temoignages" class="elmenu">Témoignages</a>
 
+                <a href="#contact">
+                    <button class="elmenu cv decale">Discutons de ton projet</button>
+                </a>
             </div>
         </div>
 
         <div class="cont fond">
             <div class="continfo">
-                <h1 class="phrase_principale">Bienvenue<br> <span class="noir">je suis</span> <span class="violet">KOMI
-                        Abdoul-kabir</span></h1>
+                <p class="web">Developpeur Web / Graphique Designer </p>
+                <h1 class="phrase_principale">Bienvenue, je suis <br><span class="noir">KOMI</span> <span
+                        class="violet">Abdoul-kabir</span></h1>
                 <P class="esp"> Explorer mes realisations et plongez dans les experiences digitales conçues pour
-                    inspirer et seduire et offrir des solutions digitales à chaque projets</P>
+                    inspirer, seduire et offrir des solutions digitales à chaque projets</P>
                 <div class="contenant_button">
-                    <button class="button cv">
-                        CV
-                    </button>
+                    <a href="./cv.pdf.pdf"><button class="button cv" oneclick="openCvPopup">
+                            CV
+                        </button></a>
 
-                    <button class="button rea">Mes realisations</button>
+                    <a href="#realisations"> <button class="button rea">Mes realisations</button></a>
                 </div>
             </div>
             <div>
-                <img class="imageill" src="./WhatsApp Image 2025-11-25 à 12.31.51_ec6c3980.jpg" alt="">
+                <img class="imageill" src="./KABIR BLANC.jpg" alt="">
             </div>
 
         </div>
@@ -48,12 +58,13 @@
 
     <!----------------------------------- SECTION 2 ------------------------------------------------------------------>
     <!----------------------------------- SECTION 2 ------------------------------------------------------------------>
-    <section class="about">
+    <section class="about" id="apropos">
         <div class="inner">
             <h2 class="about-title">A Propos de moi</h2>
 
             <p class="about-text">
-                Je suis passionné par le développement web et mobiles, avec un œil attentif pour le design UI/UX et
+                Je suis passionné par le design graphique, le développement web et mobiles, avec un œil attentif pour le
+                design UI/UX et
                 l'expérience utilisateur. J'aime transformer des idées en solutions digitales concrètes et créer des
                 expériences interactives qui captivent et inspirent. Collaborons pour construire ensemble l'avenir du
                 numérique et donner vie à vos projets.
@@ -61,18 +72,18 @@
 
             <div class="stats">
                 <div class="stat">
-                    <div class="num">50+</div>
+                    <div class="num">4+</div>
                     <div class="label">Projets réalisés</div>
                 </div>
 
                 <div class="stat center">
-                    <div class="num">5+</div>
+                    <div class="num">1+</div>
                     <div class="label">Années d'expérience</div>
                     <div class="semi"></div>
                 </div>
 
                 <div class="stat">
-                    <div class="num">30+</div>
+                    <div class="num">4+</div>
                     <div class="label">Clients Satisfaits</div>
                 </div>
             </div>
@@ -84,7 +95,7 @@
     <!----------------------------------- SECTION 3 ------------------------------------------------------------------>
     <!----------------------------------- SECTION 3 ------------------------------------------------------------------>
 
-    <section class="services">
+    <section class="services" id="services">
         <div class="inner">
             <h2 class="services-title">Services</h2>
             <p class="services-text">
@@ -101,8 +112,9 @@
                         <path d="M12 2v20M3 12h18" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
                     <h3>Design</h3>
-                    <p>Je suis spécialisé dans le design UI/UX pour le web et le mobile, en créant des interfaces
-                        attrayantes et centrées sur l'utilisateur.</p>
+                    <p>Je suis spécialisé dans le design graphique et le design UI/UX pour le web et le mobile, en
+                        créant des interfaces
+                        attrayantes et centrées sur l'utilisateur. Et également dans le design graphique</p>
                 </div>
 
                 <div class="card">
@@ -143,7 +155,7 @@
     <!--------------------------------------- SECTION QUATRE --------------------------------------------------------->
     <!-------------------------------------------- SECTION QUATRE --------------------------------------------------------->
 
-    <section class="portfolio">
+    <section class="portfolio" id="realisations">
         <div class="sectquatre">
             <h2>Mes réalisations</h2>
             <p class="subtitle">
@@ -152,80 +164,83 @@
             </p>
         </div>
 
-        <div class="grid">
-            <!-- Projet 1 -->
-            <div class="project">
-                <img src="./projet1.jpg" alt="Plateforme E-learning">
-                <div class="info">
-                    <h3>Plateforme E-learning</h3>
-                    <p>Design Web / Développement Web</p>
-                </div>
-                <span class="arrow">↗</span>
-            </div>
+<!-- === Portfolio grid (remplace l'ancien contenu .grid) === -->
+<div class="grid">
+  <!-- Projet 1 -->
+  <div class="project" onclick="openProject('./projet1.jpg')">
+    <img src="./projet1.jpg" alt="Affiche Evenementielle">
+    <div class="info">
+      <h3>Affiche Evenementielle</h3>
+      <p>Design Graphique</p>
+    </div>
+    <span class="arrow">↗</span>
+  </div>
 
-            <!-- Projet 2 -->
-            <div class="project">
-                <img src="./projet 2.jpg" alt="Travel App">
-                <div class="info">
-                    <h3>Travel App</h3>
-                    <p>Développement Mobile / App Design</p>
-                </div>
-                <span class="arrow">↗</span>
-            </div>
+  <!-- Projet 2 (note : nom de fichier avec espace) -->
+  <div class="project" onclick="openProject('./projet 2.jpg')">
+    <img src="./projet 2.jpg" alt="Affiche pub">
+    <div class="info">
+      <h3>Affiche pub</h3>
+      <p>Design Graphique</p>
+    </div>
+    <span class="arrow">↗</span>
+  </div>
 
-            <!-- Projet 3 -->
-            <div class="project">
-                <img src="./projet3.jpg" alt="Landing Page">
-                <div class="info">
-                    <h3>Landing Page</h3>
-                    <p>Web Design</p>
-                </div>
-                <span class="arrow">↗</span>
-            </div>
+  <!-- Projet 3 -->
+  <div class="project" onclick="openProject('./projet3.jpg')">
+    <img src="./projet3.jpg" alt="lanwison Affiche">
+    <div class="info">
+      <h3>lanwison Affiche</h3>
+      <p>Design Graphique</p>
+    </div>
+    <span class="arrow">↗</span>
+  </div>
 
-            <!-- Projet 4 -->
-            <div class="project">
-                <img src="./projet4.jpg" alt="Furniture Mobile App">
-                <div class="info">
-                    <h3>Furniture Mobile App</h3>
-                    <p>App Design / Développement Mobile</p>
-                </div>
-                <span class="arrow">↗</span>
-            </div>
+  <!-- Projet 4 -->
+  <div class="project" onclick="openProject('./projet4.jpg')">
+    <img src="./projet4.jpg" alt="Affiche e-football competition">
+    <div class="info">
+      <h3>Affiche e-football competition</h3>
+      <p>Design Graphique</p>
+    </div>
+    <span class="arrow">↗</span>
+  </div>
 
-            <!-- Projet 5 -->
-            <div class="project">
-                <img src="./projet5.jpg" alt="Coffee House Landing Page">
-                <div class="info">
-                    <h3>Coffee House Landing Page</h3>
-                    <p>Web Design</p>
-                </div>
-                <span class="arrow">↗</span>
-            </div>
+  <!-- Projet 5 -->
+  <div class="project" onclick="openProject('./projet5.jpg')">
+    <img src="./projet5.jpg" alt="Marco Affiche">
+    <div class="info">
+      <h3>Marco Affiche</h3>
+      <p>Design Graphique</p>
+    </div>
+    <span class="arrow">↗</span>
+  </div>
 
-            <!-- Projet 6 -->
-            <div class="project">
-                <img src="./projet6.jpg" alt="Home Services Page">
-                <div class="info">
-                    <h3>Home Services Page</h3>
-                    <p>Web Design / Développement Web</p>
-                </div>
-                <span class="arrow">↗</span>
-            </div>
-        </div>
+  <!-- Projet 6 -->
+  <div class="project" onclick="openProject('./projet6.jpg')">
+    <img src="./projet6.jpg" alt="Affiche e-football competition2">
+    <div class="info">
+      <h3>Affiche e-football competition2</h3>
+      <p>Design graphique</p>
+    </div>
+    <span class="arrow">↗</span>
+  </div>
+</div>
+        
     </section>
 
 
     <!--------------------------------------- SECTION CINQ --------------------------------------------------------->
     <!-------------------------------------------- SECTION CINQ --------------------------------------------------------->
 
-    <section class="skills">
+    <section class="skills" id="competences">
         <div class="sectquatre">
             <h2>Mes compétences</h2>
-        <p class="subtitle">
-            voici un aperçu de mes compétences techniques et creatives, acquises au fil de mes projets en developpement
-            web, mobile et design digital
-        </p>
+            <p class="subtitle">
+                voici un aperçu de mes compétences techniques et creatives, acquises au fil de mes projets en
+                developpement
+                web, mobile, design digital et design graphique
+            </p>
         </div>
 
         <div class="skills-grid">
@@ -235,52 +250,52 @@
                 <div class="skill">
                     <span class="label">Développement Web</span>
                     <div class="bar">
-                        <div style="width:60%"></div>
+                        <div style="width:40%"></div>
                     </div>
-                    <span class="value">60%</span>
+                    <span class="value">40%</span>
                 </div>
 
                 <div class="skill">
                     <span class="label">Développement Mobile</span>
                     <div class="bar">
-                        <div style="width:90%"></div>
+                        <div style="width:10%"></div>
                     </div>
-                    <span class="value">90%</span>
+                    <span class="value">10%</span>
                 </div>
 
                 <div class="skill">
-                    <span class="label">Figma</span>
+                    <span class="label">Pixellab</span>
                     <div class="bar">
-                        <div style="width:45%"></div>
+                        <div style="width:95%"></div>
                     </div>
-                    <span class="value">45%</span>
+                    <span class="value">95%</span>
                 </div>
             </div>
 
             <!-- colonne droit -->
             <div class="column">
                 <div class="skill">
-                    <span class="label">Formation</span>
+                    <span class="label">Photoshop</span>
                     <div class="bar">
-                        <div style="width:75%"></div>
+                        <div style="width:95%"></div>
                     </div>
-                    <span class="value">75%</span>
+                    <span class="value">95%</span>
                 </div>
 
                 <div class="skill">
                     <span class="label">Création de Contenu</span>
                     <div class="bar">
-                        <div style="width:50%"></div>
+                        <div style="width:60%"></div>
                     </div>
-                    <span class="value">50%</span>
+                    <span class="value">60%</span>
                 </div>
 
                 <div class="skill">
                     <span class="label">Communication</span>
                     <div class="bar">
-                        <div style="width:50%"></div>
+                        <div style="width:70%"></div>
                     </div>
-                    <span class="value">50%</span>
+                    <span class="value">70%</span>
                 </div>
             </div>
 
@@ -290,9 +305,9 @@
     </section>
 
 
- <!--------------------------------------- SECTION six --------------------------------------------------------->
+    <!--------------------------------------- SECTION six --------------------------------------------------------->
     <!-------------------------------------------- SECTION six --------------------------------------------------------->
- <section class="testimonials">
+    <section class="testimonials" id="temoignages">
         <h2>Témoignages</h2>
 
         <p class="text">
@@ -302,9 +317,9 @@
         </p>
 
         <div class="bottom">
-            <img src="avatar.jpg" alt="Photo" class="avatar">
+            <img src="./fonnd8.jpg" alt="Photo" class="avatar">
             <p class="author">
-                ABDOUL kabir <span>/ Fondateur de KB Design</span>
+                Magnim LAWNSON <span>/ Fondateur de WORKPLACE Afriqiue AI</span>
             </p>
         </div>
 
@@ -313,9 +328,10 @@
     </section>
 
     <!-------------------------------------------------- SECTION SEPT -------------------------------------------------------------------->
- 
 
-    <section class="contact">
+
+    <!-- ===== SECTION CONTACT (REMPLACE LA SECTION EXISTANTE) ===== -->
+    <section class="contact" id="contact">
         <div class="circle"></div>
 
         <div class="left">
@@ -327,30 +343,44 @@
             </p>
 
             <div class="info">
-                <p>📞 +228 91 52 94 02</p>
-                <p>📧 komiabdoulkabir16@gmail.com</p>
-                <p>📍 Lomé, Togo</p>
+                <p><i class="fa-solid fa-phone"></i> +228 91 52 94 02</p>
+                <p><i class="fa-solid fa-message"></i> komiabdoulkabir16@gmail.com</p>
+                <p><i class="fa-solid fa-caret-down"></i> Lomé, Togo</p>
             </div>
 
-            <div class="socials">
-                <a href="#">🐦</a>
-                <a href="#">📷</a>
-                <a href="#">💼</a>
-                <a href="#">📘</a>
+            <div class="sociales">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter fa-fade"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram fa-fade"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
             </div>
         </div>
 
-        <form class="right">
-            <input type="text" placeholder="Votre nom">
-            <input type="email" placeholder="Email">
-            <input type="text" placeholder="Numéro de téléphone">
-            <textarea placeholder="Votre message"></textarea>
-            <button type="submit">Envoyer</button>
+        <!-- Formulaire -->
+        <form class="right" id="contact-form">
+            <input type="text" name="name" placeholder="Votre nom" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="text" name="phone" placeholder="Numéro de téléphone">
+            <textarea name="message" placeholder="Votre message" required></textarea>
+            <button type="submit" id="send-btn">Envoyer</button>
         </form>
-    </section>
-<!------------------------------------ derniere partie -------------------------------------------------->
 
-<footer class="footer">
+        <!-- message de statut simple (optionnel) -->
+        <p id="status-message" style="display:none; margin-top:10px; font-weight:bold;"></p>
+
+        <!-- POPUP DE CONFIRMATION -->
+        <div id="popup-success" class="popup" aria-hidden="true">
+            <div class="popup-box" role="dialog" aria-labelledby="popup-title" aria-modal="true">
+                <h3 id="popup-title">Message envoyé !</h3>
+                <p>Merci de m’avoir contacté. Je vous répondrai très bientôt.</p>
+                <button id="popup-close">Fermer</button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="footer">
         <nav class="mesure">
             <a href="#">A Propos</a>
             <a href="#">Services</a>
@@ -362,12 +392,227 @@
         <p class="follow">Suivez moi sur les réseaux sociaux</p>
 
         <div class="socials">
-            <a href="#">🔗</a>
-            <a href="#">📸</a>
-            <a href="#">🐦</a>
-            <a href="#">📘</a>
+            <a href="#"><i class="fa-brands fa-linkedin-in fa-beat" style="color: #00348f;"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter fa-beat" style="color: #3d85bd;"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram fa-beat" style="color: #c91870;"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f fa-beat" style="color: #3465c5;"></i></a>
         </div>
     </footer>
+
+
+    <!-- POPUP RÉALISATION -->
+    <div id="project-popup" class="project-popup">
+        <div class="project-box">
+            <span class="project-close" onclick="closeProject()">×</span>
+            <img id="project-image" src="" alt="" class="project-image">
+        </div>
+    </div>
+
+
+
+    <!-- ===== POPUP CV ===== -->
+    <div id="cv-popup" class="cv-popup">
+        <div class="cv-box">
+            <span class="cv-close" onclick="closeCvPopup()">×</span>
+
+            <h2>Mon CV</h2>
+
+            <!-- Visionneuse PDF intégrée -->
+            <embed src="cv.pdf" type="application/pdf" class="cv-viewer">
+
+            <a href="cv.pdf" download class="cv-download">Télécharger le CV</a>
+        </div>
+    </div>
+
+
+
+    <!-- CHAT WIDGET (OPTION A) -->
+    <div id="chat-widget" class="chat-widget">
+        <button id="chat-toggle" class="chat-toggle">💬</button>
+
+        <div id="chat-panel" class="chat-panel" aria-hidden="true">
+            <div class="chat-header">
+                <strong>KB Chat</strong>
+                <button id="chat-close" class="chat-close">×</button>
+            </div>
+
+            <div id="chat-messages" class="chat-messages" role="log" aria-live="polite"></div>
+
+            <form id="chat-form" class="chat-form" autocomplete="off">
+                <input id="chat-input" type="text" placeholder="Écris un message..." required />
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </div>
+
+
+
+
+    <!-- ===== SCRIPTS : EmailJS + logique d'envoi ===== -->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+    <script>
+        /* ============= CONFIGURATION (remplace par TES valeurs) ============= */
+        // clé publique EmailJS (API key publique)
+        const EMAILJS_PUBLIC_KEY = "eHEtHnZZ_w3CLoB0W";
+        // ton service id (ex: service_xxx)
+        const EMAILJS_SERVICE_ID = "service_ycqjdmb";
+        // ton template id (ex: template_xxx)
+        const EMAILJS_TEMPLATE_ID = "template_u3lzwdu";
+        /* ==================================================================== */
+
+        (function () {
+            emailjs.init(EMAILJS_PUBLIC_KEY);
+        })();
+
+        const form = document.getElementById("contact-form");
+        const popup = document.getElementById("popup-success");
+        const statusMsg = document.getElementById("status-message");
+        const sendBtn = document.getElementById("send-btn");
+        const popupClose = document.getElementById("popup-close");
+
+        function openPopup() {
+            popup.style.display = "flex";
+            popup.setAttribute("aria-hidden", "false");
+        }
+
+        function closePopup() {
+            popup.style.display = "none";
+            popup.setAttribute("aria-hidden", "true");
+        }
+
+        popupClose.addEventListener("click", closePopup);
+
+        // Gestion du submit
+        form.addEventListener("submit", function (e) {
+            e.preventDefault();
+
+            // désactiver le bouton pour éviter les envois multiples
+            sendBtn.disabled = true;
+            sendBtn.textContent = "encours...";
+
+            emailjs.sendForm(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, this)
+                .then(function (response) {
+                    // succès
+                    statusMsg.style.display = "block";
+                    statusMsg.style.color = "green";
+                    statusMsg.textContent = "Message envoyé avec succès ! 🎉";
+
+                    openPopup();
+
+                    // reset du formulaire
+                    form.reset();
+
+                    sendBtn.disabled = false;
+                    sendBtn.textContent = "Envoyer";
+                }, function (error) {
+                    // erreur
+                    statusMsg.style.display = "block";
+                    statusMsg.style.color = "red";
+                    statusMsg.textContent = "Erreur lors de l'envoi. Vérifie la console.";
+
+                    sendBtn.disabled = false;
+                    sendBtn.textContent = "Envoyer";
+                    console.error("EmailJS error:", error);
+                });
+
+
+            emailjs.sendForm(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, this)
+                .then(function (response) {
+                    statusMsg.style.display = "block";
+                    statusMsg.style.color = "green";
+                    statusMsg.textContent = "Message envoyé avec succès ! 🎉";
+
+                    openPopup();
+
+                    /* ---- AJOUTER ICI ---- */
+                    setTimeout(() => {
+                        statusMsg.style.display = "none";
+                        statusMsg.textContent = "";
+                    }, 3000);
+                    /* ---------------------- */
+
+                    form.reset();
+
+                    sendBtn.disabled = false;
+                    sendBtn.textContent = "Envoyer";
+                }, function (error) {
+
+                });
+        });
+
+
+    </script>
+
+
+    <script>
+        function openCvPopup() {
+            document.getElementById("cv-popup").style.display = "flex";
+        }
+
+        function closeCvPopup() {
+            document.getElementById("cv-popup").style.display = "none";
+        }
+    </script>
+
+
+
+
+    <script>
+        (function () {
+            const toggle = document.getElementById('chat-toggle');
+            const panel = document.getElementById('chat-panel');
+            const closeBtn = document.getElementById('chat-close');
+            const form = document.getElementById('chat-form');
+            const input = document.getElementById('chat-input');
+            const messages = document.getElementById('chat-messages');
+
+            function openPanel() { panel.style.display = 'flex'; panel.setAttribute('aria-hidden', 'false'); }
+            function closePanel() { panel.style.display = 'none'; panel.setAttribute('aria-hidden', 'true'); }
+
+            toggle.addEventListener('click', () => { openPanel(); appendBot('Bonjour 👋, je suis KB Chat — pose moi une question (ex: "CV", "services", "contact")'); });
+            closeBtn.addEventListener('click', closePanel);
+
+            function append(msg, who = 'bot') {
+                const el = document.createElement('div');
+                el.className = 'msg ' + (who === 'user' ? 'user' : 'bot');
+                el.textContent = msg;
+                messages.appendChild(el);
+                messages.scrollTop = messages.scrollHeight;
+            }
+
+            function handleIntent(text) {
+                const t = text.toLowerCase();
+                if (t.includes('cv')) return 'Tu peux voir mon CV en cliquant sur le bouton CV.';
+                if (t.includes('contact')) return 'Pour me contacter, utilise le formulaire en bas de la page.';
+                if (t.includes('services')) return 'Je propose : Design, Développement Web, Mobile, Formation.';
+                if (t.includes('bonjour') || t.includes('salut')) return 'Salut ! Comment puis-je t\'aider ?';
+                return 'Je n’ai pas compris 😅 Essaie "CV", "Services", "Contact".';
+            }
+
+            form.addEventListener('submit', (e) => {
+                e.preventDefault();
+                const text = input.value.trim();
+                if (!text) return;
+                append(text, 'user');
+                input.value = '';
+                setTimeout(() => { append(handleIntent(text), 'bot'); }, 500);
+            });
+        })();
+    </script>
+
+
+
+    <script>
+        function openProject(imageSrc) {
+            document.getElementById("project-image").src = imageSrc;
+            document.getElementById("project-popup").style.display = "flex";
+        }
+
+        function closeProject() {
+            document.getElementById("project-popup").style.display = "none";
+        }
+    </script>
 </body>
 
 </html>
