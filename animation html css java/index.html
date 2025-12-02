@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Animation de la page de connexion</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form >
+                <h1>Créer ton compte</h1>
+                <div class="social-icons">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fa-brands fa-google"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <span>ou utiliser ton email pour t'inscrire</span>
+                <input type="text" placeholder="Nom" />
+                <input type="email" placeholder="Email" />
+                <input type="mot de passe" placeholder="Mot de passe" />
+                <button>S'inscrire</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <h1>Se connecter</h1>
+                <div class="social-icons">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fa-brands fa-google"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <span>ou utiliser ton email pour t'inscrire</span>
+                <input type="email" placeholder="Email" />
+                <input type="mot de passe" placeholder="mot de passe" />
+                <a href="#">Tu as oublié ton mot de passe?</a>
+                <button>Se connecter</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Content de te revoir!</h1>
+                    <p>saisissez vos informations personnelles pour utiliser toutes les fonctionnalités du site</p>
+                    <button class="hidden" id="login">Se connecter</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>salut, cher(e) ami(e)!</h1>
+                    <p>Inscrivez-vous avec vos informations personnelles pour utiliser toutes les fonctionnalités du sites</p>
+                    <button class="hidden" id="register">S'inscrire</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
