@@ -585,21 +585,22 @@ h2 {
 .bar {
     grid-column: span 2;
     height: 4px;
-    background: #e9eee8;
+    background: #dfecdc;
     margin: 10px 0;
     position: relative;
 }
 
 .bar div {
     height: 100%;
-    background: #a08405;
+    background: #f3f30a;
 }
-
 @media (max-width: 700px) {
     .skills-grid {
         grid-template-columns: 1fr;
     }
 }
+
+
 
 /*------------------------------- SECTION six -------------------------------------------------------------*/
 /*------------------------------- SECTION six -------------------------------------------------------------*/
