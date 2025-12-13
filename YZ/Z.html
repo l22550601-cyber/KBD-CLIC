@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Nouveau Contact</title>
+  <link rel="stylesheet" href="./Z.css" />
+</head>
+<body>
+  <main class="page">
+    <header class="page-header">
+      <div class="title">
+        <span class="plus">＋</span>
+        <h1 style="color: aliceblue;">KB Contact</h1>
+      </div>
+      <a class="back-btn" href="#">← Retour à la liste</a>
+    </header>
+
+    <form id="contactForm" class="card" autocomplete="off">
+      <div class="field">
+        <label style="color: aliceblue;">Nom </label>
+        <input type="text" name="lastname" placeholder="Entrez le nom" required />
+      </div>
+
+      <div class="field">
+        <label style="color: aliceblue;">Prénom </label>
+        <input type="text" name="firstname" placeholder="Entrez le prénom" required />
+      </div>
+
+      <div class="field">
+        <label style="color: aliceblue;">Email</label>
+        <input type="email" name="email" placeholder="exemple@email.com" />
+      </div>
+
+      <!-- Téléphones -->
+      <section class="panel">
+        <div class="panel-header">
+          <div class="panel-title">📱 Téléphones</div>
+        </div>
+        
+
+        <div id="phonesContainer" class="panel-body">
+          <!-- template phone row (hidden) -->
+        </div>
+
+        <button type="button" id="addPhoneBtn" class="btn small outline">+ Ajouter un téléphone</button>
+      </section>
+
+      <!-- Adresses -->
+      <section class="panel">
+        <div class="panel-header">
+          <div class="panel-title">🏠 Adresses</div>
+        </div>
+
+        <div id="addressesContainer" class="panel-body">
+          <!-- template address row (hidden) -->
+        </div>
+
+        <button type="button" id="addAddressBtn" class="btn small outline">+ Ajouter une adresse</button>
+      </section>
+
+      <div class="actions">
+        <button type="submit" class="btn primary">Créer le contact</button>
+        <button type="button" class="btn neutral" id="cancelBtn">Annuler</button>
+      </div>
+    </form>
+
+    <footer class="page-footer">
+      TP PHP - Gestion des Contacts © 2025
+    </footer>
+  </main>
+
+  <template id="phoneRowTemplate">
+    <div class="row phone-row">
+      <input type="tel" name="phone[]" placeholder="Numéro de téléphone" />
+      <select name="phone_type[]">
+        <option>Mobile</option>
+        <option>Fixe</option>
+        <option>Travail</option>
+      </select>
+      <button type="button" class="btn tiny remove">✕</button>
+    </div>
+  </template>
+
+  <template id="addressRowTemplate">
+    <div class="address-panel">
+      <div class="row">
+        <input type="text" name="street[]" placeholder="Rue" />
+      </div>
+      <div class="row">
+         <div class="row">
+        <input type="text" name="street[]" placeholder="ville" />
+      </div>
+         <div class="row">
+        <input type="text" name="street[]" placeholder="code postale" />
+      </div>
+        <select name="address_type[]">
+          <option>Domicile</option>
+          <option>bureau</option>
+          <option>social</option>
+        </select>
+        <button type="button" class="btn tiny remove">✕</button>
+      </div>
+    </div>
+  </template>
+
+  <script src="./Z.js"></script>
+</body>
+</html>
